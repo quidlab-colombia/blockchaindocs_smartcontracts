@@ -1,0 +1,26 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "Toolkit contracts",
+  "main": "index.js",
+  "repository": "keybase://team/toolkitbc/contracts",
+  "author": "QuidLab <quidlab.co@gmail.com>",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "moment": "^2.22.2"
+  },
+  "scripts": {
+    "start": "truffle compile && cp -r build/contracts ../api/api"
+  },
+  "dependencies": {
+    "truffle": "5.0.8",
+    "dotenv": "^6.1.0",
+    "fs": "0.0.1-security",
+    "ipfs-api": "^26.1.2",
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle-hdwallet-provider": "1.0.5"
+  }
+}
